@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "I'm tired of Spotify ads",
   "main": "index.js",
+  "scripts": {
+    "dev" : "webpack --mode development --watch",
+    "start" : "webpack --mode development --watch",
+    "build" : "webpack --mode production"
+  },
   "repository": "git@github.com:Duck-sri/audioRoom.git",
   "author": "Duck-sri <sriram10e21@gmail.com>",
   "license": "MIT",
